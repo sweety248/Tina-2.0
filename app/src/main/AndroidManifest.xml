@@ -8,11 +8,11 @@
     <application
         android:allowBackup="true"
         android:label="Tina AI"
-        android:theme="@android:style/Theme.Material.Light.NoActionBar"
-        android:usesCleartextTraffic="false">
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.Material.Light.NoActionBar">
 
         <activity
-            android:name=".MainActivity"
+            android:name="com.tina.ai.MainActivity"
             android:exported="true">
 
             <intent-filter>
@@ -23,4 +23,5 @@
         </activity>
 
     </application>
+
 </manifest>
